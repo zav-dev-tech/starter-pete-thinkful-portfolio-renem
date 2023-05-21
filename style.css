@@ -1,4 +1,5 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+*{ box-sizing: border-box; }
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
@@ -18,7 +19,8 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Containers */
@@ -36,6 +38,8 @@ article div {
   text-align: center;
   width: 100%;
 }
+
+
 
 /* Paragraphs */
 p {
@@ -76,3 +80,36 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.image-circle {
+  margin-right: 20px;
+}
+
+.group section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.groups {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+
+#portfolio section p {
+  font-size: 14px;
+}
+
