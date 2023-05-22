@@ -94,8 +94,7 @@ hr {
 .group {
   display: flex;
   align-items: center;
-  background-color: #f77f00;
-  flex-direction: column;
+  /* background-color: #f77f00; */
 }
 
 
@@ -104,28 +103,32 @@ hr {
 .group2 {
   display: flex;
   align-items: horizontal;
-  background-color: #8bd628;
+  /* background-color: #8bd628; */
   flex-direction: column;
 }
 
 
 
 .group3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   text-align: left;
-  background-color: #f700e7;
+  /* background-color: #f700e7; */
 }
 
 #portfolio section p {
   font-size: 14px;
 }
 
+.portfolio-container {
+  display: flex;
+}
+
+.item2 img {
+  height: 220px;
+}
+
 .imPete {
   flex: 1;
-  background-color: aqua;
+  /* background-color: aqua; */
   align-items: center;
-  margin-left: 25%;
 }
 
